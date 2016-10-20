@@ -1,7 +1,10 @@
 // Place all the styles related to the games controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
 .border{
   border: 1px solid black;
 }
@@ -34,8 +37,6 @@
   overflow-x:hidden;
 }
 .action {
-  top: 20%;
-  height: 80%;
-  width: 60%;
-  position: absolute;
+  height: 20%;
+  width: 100%;
 }
