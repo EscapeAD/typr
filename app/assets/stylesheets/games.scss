@@ -8,6 +8,34 @@
 .game-window {
   height: 20em;
 }
+.timer{
+  width: 60%;
+  height: 20%;
+  float: left;
+  text-align: center;
+}
 #chat-box{
     width: 100%;
+}
+.player1 {
+  height: 100%;
+  float: right;
+  width: 20%;
+  overflow: scroll;
+  overflow-y:hidden;
+  overflow-x:hidden;
+}
+.player2 {
+  height: 100%;
+  float: right;
+  width: 20%;
+  overflow: scroll;
+  overflow-y:hidden;
+  overflow-x:hidden;
+}
+.action {
+  top: 20%;
+  height: 80%;
+  width: 60%;
+  position: absolute;
 }
